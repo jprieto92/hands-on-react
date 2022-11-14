@@ -1,5 +1,7 @@
-function HelloWorld() {
-    return <div className="container">Hello Function Component</div>;
+class HelloWorld extends React.Component {
+    render() {
+      return <div className="container">Hello Class Component</div>;
+    }
   }
   
   function App() {
