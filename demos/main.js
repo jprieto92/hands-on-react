@@ -4,8 +4,8 @@ const element = React.createElement(
     "div",
     {
         className: "container",
+            children: ['Hello World', 'Goodbye World'],
     },
-    "Hello World"
 );
 
 console.log(element);
