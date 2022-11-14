@@ -1,7 +1,9 @@
 const rootElement = document.getElementById('root');
-const person = { first: 'Joe', last: 'Doe' };
-const element = 
-    <div className="container">
-        Hello {person.first} {person.last}
-    </div>;
+const logo = {
+    name: "React Logo",
+    title: "React Logo",
+    path: "./images/react-logo.png",
+  };
+const element = <img src={logo.path} alt={logo.name} title={logo.title} />;
+
 ReactDOM.createRoot(rootElement).render(element);
